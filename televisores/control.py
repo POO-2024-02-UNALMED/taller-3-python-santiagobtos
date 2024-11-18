@@ -6,7 +6,7 @@ class Control:
         self._tv=teve
         self._tv.setControl(self)
     def turnOn(self):
-        self._tv.turnUp()
+        self._tv.turnOn()
     def turnOff(self):
         self._tv.turnOff()
     def canalUp(self):
