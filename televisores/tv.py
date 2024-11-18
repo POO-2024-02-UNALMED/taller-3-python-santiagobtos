@@ -36,8 +36,9 @@ class TV:
             self._canal=chanel
         else:
             return
-    def setNumTV(self):
-        self._numTV=0
+    @classmethod
+    def setNumTV(cls,num):
+        cls._numTV=num
     def getNumTV(self):
         return self._numTV
     def turnOn(self):
